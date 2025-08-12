@@ -1,0 +1,18 @@
+modLoader="lowcodefml"
+loaderVersion="[47,)"
+license="GPL3.0"
+
+[[mods]]
+modId="pomkotsworld"
+version="0.0.1-alpha.1"
+displayName="Pomkots World (Lost Cities Add-on)"
+description="Generates a sci-fi flavored, post-apocalyptic world. This is an add-on for Lost Cities."
+authors="grc_mcs"
+logoFile = "icon.png"
+
+[[dependencies.pomkotsworld]]
+    modId="lostcities"
+    mandatory=true
+    versionRange="[1.20-7.4.0,)"
+    ordering="AFTER"
+    side="BOTH"
